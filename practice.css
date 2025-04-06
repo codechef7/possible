@@ -1,0 +1,95 @@
+*{
+    padding:0;
+    margin: 0;
+    /* color: aliceblue; */
+}
+/* #head h1{
+    text-align: center;
+    text-decoration: underline;
+    background-color: greenyellow;
+    font-size:30px;
+    border-width: 3px;
+    border-style: solid;
+    margin-top: 50px;
+    
+}
+
+#head h2{
+    text-decoration: underline;
+    background-color: lightpink;
+    font-size:25px ;
+    border-width: 3px;
+    border-style: dashed;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    margin-top: 50px;
+}
+
+#head h3{
+    text-align: center;
+    text-decoration: underline;
+    background-color: lightblue;
+    font-size: 20px;
+    border-width: 3px;
+    border-style:dotted;
+    width: 200px;
+    border-radius: 30px;
+    margin-top: 50px;
+    
+}
+.link{
+    text-align: center;
+    text-decoration:none;
+}
+
+.new{
+    height: 100px;
+    width: 100px;
+    background-color:greenyellow;
+    border-radius: 50px;
+} */
+
+.navbar{
+     height: 60px;
+     background-color: black;
+}
+button{
+    background-color: orange;
+}
+.logo{
+    color: orange;
+}
+
+.navbar a{
+    margin-right: 200px;
+    color: aliceblue;
+  
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
