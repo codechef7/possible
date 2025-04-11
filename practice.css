@@ -1,6 +1,7 @@
 *{
     padding:0;
     margin: 0;
+    box-sizing: border-box;
     /* color: aliceblue; */
 }
 /* #head h1{
@@ -51,23 +52,29 @@
 } */
 
 .navbar{
-     height: 60px;
+     height: 50px;
      background-color: black;
 }
 button{
     background-color: orange;
 }
-.logo{
-    color: orange;
+.navbar{
+    /* color: orange; */
+    padding-bottom:px;
 }
 
 .navbar a{
     margin-right: 200px;
-    color: aliceblue;
+    color: white;
+    align-items: flex-end;
   
 }
 
-.box1{
+#logo{
+    font-size: large;
+}
+
+/* .box1{
     width: 100px;
     height: 100px;
     background-color: aqua;
@@ -92,4 +99,4 @@ button{
     margin: 25px;
     padding: 25px;
     display: inline-block;
-}
+} */
