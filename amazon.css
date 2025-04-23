@@ -1,7 +1,7 @@
 *{
     margin: 0;
     font-family: Arial;
-    border: border-box;
+    /* border: border-box; */
 }
 
 .navbar{
@@ -26,16 +26,6 @@ width: 100px;
 
 
 }
-
-.border{
-    border: 2px solid transparent;
-}
-
-.border p:hover{
-    border: 2px solid white;
-    padding: 3px 3px 3px 3px;
-
-} 
 
 /* box 2 */
 .add-first{
@@ -105,6 +95,12 @@ width: 100px;
 }
 
 /*box 4  */
+
+.sign-in a{
+    color: white;
+    text-decoration: none;
+}
+
 span{
     font-size: 0.7rem;
     font-weight: 700;
@@ -330,4 +326,24 @@ footer{
     font-size: 0.7rem;
     text-align: center;
     margin-top: 3px;
+}
+
+.nav-logo:hover{
+    border: 1px solid white;
+    padding: 3px 3px 3px 3px;
+}
+
+.address:hover{
+    border: 1px solid white;
+    padding: 3px 3px 3px 3px;
+}
+
+.nav-cart:hover{
+    border: 1px solid white;
+    padding: 3px 3px 3px 3px;
+}
+
+.sign-in:hover{
+    border: 1px solid white;
+    padding: 3px 3px 3px 3px;
 }
