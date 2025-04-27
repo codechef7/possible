@@ -257,6 +257,13 @@ footer{
     
 }
 
+.foot-pannel1 a{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    font-size: 15px;
+}
+
 .foot-pannel2{
     background-color: #023942;
     color: white;
