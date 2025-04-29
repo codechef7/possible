@@ -17,27 +17,28 @@
 }
 
 .card{
-    width :370px;
-    height: 800px;
+    width :360px;
+    height: 740px;
     /* display: flex; */
     /* justify-content: space-around; */
     /* flex-direction: column; */
     border: 1px solid #ddd ;
     border-radius: 4px ;
     margin:25px auto  ;
-    padding :20px;
-    background-color: rgb(248, 248, 243);
+    padding :15px;
+    background-color: #ffffff;
     margin-top: 20px;
     
 }
 
 .card button{
-    width: 335px;
+    width: 328px;
     height: 35px;
     margin-top: 13px;
     background-color: orange;
     border: 1px solid #ddd;
     border-radius: 20px;
+    
     
 }
 
@@ -52,7 +53,7 @@
 }
 
 .content{
-    font-size: 35px;
+    font-size: 33px;
     font-family:Arial, Helvetica, sans-serif ;
 
 }
@@ -68,21 +69,24 @@
 .name{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-    margin-top: 15px;
+    margin-top: 20px;
+    width: 100%;
     display: flex;
     flex-direction:column ;
+    justify-content: center;
 }
 .name input{
     width: 325px;
     height: 30px;
     margin-top: 5px;
     border-radius: 4px;
+    border: 1px solid black;
 }
 
 .pno{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .pno input{
@@ -90,29 +94,31 @@
     height: 30px;
     margin-top: 5px;
     border-radius: 4px;
+    border: 1px solid black;
 }
 
 .pass{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-    margin-top: 10px; 
+    margin-top: 20px; 
 }
 .pass input{
     width: 325px;
     height: 30px;
     margin-top: 5px;
     border-radius: 4px;
+    border: 1px solid black;
 }
 
 .cpass{
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .repass{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .repass input{
@@ -120,8 +126,103 @@
     height: 30px;
     margin-top: 5px;
     border-radius: 4px;
+    border: 1px solid black;
+}
+
+.repass button a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
 }
 
 #terms{
-    margin-top: 70px;
+    margin-top: 50px;
+}
+
+.box{
+    width:350px;
+    border: 0.1px solid gray;
+    height: 0%;
+    margin-top: 20px;
+
+}
+.dd{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.work{
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.business a{
+    text-decoration: none;
+    
+}
+
+.sin{
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.sin a{
+    text-decoration: none;
+    color: blue;
+    font-size: 15px;
+}
+
+.box2{
+    border: 1px solid gray;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40px;
+    margin-bottom: 30px
+    /* margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px; */
+}
+
+
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot ul{
+    list-style: none;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.foot ul li a{
+    color: blue;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+
+.foot ul li a:hover{
+    color: rgb(41, 170, 213);
+    text-decoration: underline;
+}
+
+
+.affiliates{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    margin-bottom: 83px;
+    font-size: 15px;
 }
