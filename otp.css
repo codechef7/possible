@@ -34,7 +34,6 @@
     border-radius: 4px ;
     margin:25px auto  ;
     padding :15px;
-    background-color: rgb(248, 248, 243);
     margin-top: 20px;
     background-color: #ffffff
     
@@ -75,19 +74,26 @@
 
 }
 
-.label button{
+.label a button{
     width: 329px;
-    height: 30px;
+    height: 35px;
     margin-top: 10px;
     border: 1px solid transparent;
     border-radius: 7px;
     background-color: orange;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 .label button a{
     color: black;
     font-size: 15px;
     text-decoration: none;
+}
+
+.label button:hover{
+    border-color: orangered;
 }
 
 .donot{
@@ -105,10 +111,12 @@
     width: 80%;
     margin-left: 10%;
     margin-top: 40px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
     /* margin-left: 20px;
     margin-right: 20px;
     margin-top: 40px; */
+    margin-top: 80px;
+
 }
 
 
@@ -116,6 +124,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .foot ul{
